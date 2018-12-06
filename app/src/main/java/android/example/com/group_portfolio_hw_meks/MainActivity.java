@@ -1,4 +1,4 @@
-nit package android.example.com.group_portfolio_hw_meks;
+package android.example.com.group_portfolio_hw_meks;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
