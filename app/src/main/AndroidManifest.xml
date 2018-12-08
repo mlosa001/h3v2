@@ -16,14 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Personal"
-            android:label="@string/title_activity_personal"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".KrishanActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="android.example.com.group_portfolio_hw_meks.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
     </application>
 
