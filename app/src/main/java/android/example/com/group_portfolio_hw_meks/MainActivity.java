@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         //set up action bar
         ActionBar actionbar = getSupportActionBar();
-        actionbar.setDisplayHomeAsUpEnabled(true);
+        actionbar.setDisplayHomeAsUpEnabled(false);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu_black_24dp);
 
         // this is setting up the onClick listener for when you select a name
