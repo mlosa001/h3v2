@@ -38,37 +38,37 @@ public class KrishanActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.krishan_menu_project1:
-                String urlOne = "https://github.com/KrishanRoy/A-Mad-Libs-App_Krishan_Roy";
-                Uri webpageOne = Uri.parse(urlOne);
-                Intent krishanProjectOneIntent = new Intent(Intent.ACTION_VIEW, webpageOne);
-                if (krishanProjectOneIntent.resolveActivity(getPackageManager()) != null) {
-                    startActivity(krishanProjectOneIntent);
-                } else {
-                    Log.d("Kris Proj1 Implicit", "Can't handle this message");
-                }
-            case R.id.krishan_menu_project2:
-                String urlTwo = "https://github.com/KrishanRoy/CYOA_Pursuit_HW_ROY_KRISHAN";
-                Uri webpageTwo = Uri.parse(urlTwo);
-                Intent krishanProjectTwoIntent = new Intent(Intent.ACTION_VIEW, webpageTwo);
-                if (krishanProjectTwoIntent.resolveActivity(getPackageManager()) != null) {
-                    startActivity(krishanProjectTwoIntent);
-                } else {
-                    Log.d("Kris Proj2 Implicit", "Can't handle this message");
-                }
-            case R.id.krishan_menu_project3:
-                String urlThree = "https://github.com/KrishanRoy/Java_Bank_Pursuit_HW_ROY_KRISHAN";
-                Uri webpageThree = Uri.parse(urlThree);
-                Intent krishanProjectThreeIntent = new Intent(Intent.ACTION_VIEW, webpageThree);
-                if (krishanProjectThreeIntent.resolveActivity(getPackageManager()) != null) {
-                    startActivity(krishanProjectThreeIntent);
-                } else {
-                    Log.d("Kris Proj3 Implicit", "Can't handle this message");
-                }
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.krishan_menu_project1:
+//                String urlOne = "https://github.com/KrishanRoy/A-Mad-Libs-App_Krishan_Roy";
+//                Uri webpageOne = Uri.parse(urlOne);
+//                Intent krishanProjectOneIntent = new Intent(Intent.ACTION_VIEW, webpageOne);
+//                if (krishanProjectOneIntent.resolveActivity(getPackageManager()) != null) {
+//                    startActivity(krishanProjectOneIntent);
+//                } else {
+//                    Log.d("Kris Proj1 Implicit", "Can't handle this message");
+//                }
+//            case R.id.krishan_menu_project2:
+//                String urlTwo = "https://github.com/KrishanRoy/CYOA_Pursuit_HW_ROY_KRISHAN";
+//                Uri webpageTwo = Uri.parse(urlTwo);
+//                Intent krishanProjectTwoIntent = new Intent(Intent.ACTION_VIEW, webpageTwo);
+//                if (krishanProjectTwoIntent.resolveActivity(getPackageManager()) != null) {
+//                    startActivity(krishanProjectTwoIntent);
+//                } else {
+//                    Log.d("Kris Proj2 Implicit", "Can't handle this message");
+//                }
+//            case R.id.krishan_menu_project3:
+//                String urlThree = "https://github.com/KrishanRoy/Java_Bank_Pursuit_HW_ROY_KRISHAN";
+//                Uri webpageThree = Uri.parse(urlThree);
+//                Intent krishanProjectThreeIntent = new Intent(Intent.ACTION_VIEW, webpageThree);
+//                if (krishanProjectThreeIntent.resolveActivity(getPackageManager()) != null) {
+//                    startActivity(krishanProjectThreeIntent);
+//                } else {
+//                    Log.d("Kris Proj3 Implicit", "Can't handle this message");
+//                }
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 }
