@@ -1,7 +1,28 @@
 <resources>
-    <string name="app_name">Group_Portfolio_HW_MEKS</string>
+    <string name="app_name">MEKS PORTFOLIO</string>
+    <string name="Goal_of_the_project">The goal of the project is to present our group\'s work in an oragnized manner. When an user will click the top left corner of the main page or slide from the left to the right, he/she can find a navigation toolbar that shows each our name and by selecting any one of the name the
+    a new activity will take a user to a page that takes to the portfolio of that particular person in the group. In that page of that person, a user can select the top right corner of that app and a menue bar will drop and from there, the user can select any project. When a project is selected the user will be able to open that project in Google Chrome or any other website.</string>
+    <string name="marisol">Marisol</string>
+    <string name="eric">ERIC</string>
+    <string name="krishan">KRISHAN</string>
+    <string name="samer">SAMER</string>
+    <string name="project_1">Project 1</string>
+    <string name="project_2">Project 2</string>
+    <string name="project_3">Project 3</string>
+    <string name="bio_krishan">My name is Krishan Roy and I am working as a early stage Android Developer at Pursuit. You can check my projects by clicking the menu at the top right corner of the page.
+        \n\n
+        At this point of my life, I want to work in a growing company that makes a product, which is actually useful and not a gimmick and solves real concerns of connectivity around the world and maintains their standard.
+        \n\n
+I offer more than three and a half years of experience of working with community college students from Hispanic, African American, South Asian, and undocumented backgrounds as a peer math tutor and career planning facilitator. Moreover, my prior internship experience in community organizing and career planning service have helped me to hone my leadership skills and teamwork sensibilities which could be well utilized in the course of this job.
+\n\n
+Besides, at this stage of my life, I want to explore what I am already doing in a bigger setting and grow with an organization that has a concrete vision for the next five to ten years, plans accordingly to fulfill that vision, and tracks its progress to actualize its vision.
+        \n\n
+        Since my desire and the organization’s vision converges together, I can pour my heart to make colleges accessible to my struggling younger brothers in high schools, develop my mentorship skills, gather experience in the impact of digital technologies in advising and apply for a master’s program in the higher education administration after the two years\' commitment period.
+
+
+    </string>
     <string name="title_activity_personal">Personal</string>
-    <string name="bio">Information Technology Professional experienced in handling high-volume requests in a call center environment. CompTIA A+, and Network+ certified in addition to a solid working knowledge of troubleshooting PC\'s, peripherals and networking issues.
+    <string name="bio_marisol">Information Technology Professional experienced in handling high-volume requests in a call center environment. CompTIA A+, and Network+ certified in addition to a solid working knowledge of troubleshooting PC\'s, peripherals and networking issues.
         Friendly and diligent, committed to providing the highest
         levels of customer service. Excellent interpersonal and
         communication skills. Fluent in Spanish.</string>
