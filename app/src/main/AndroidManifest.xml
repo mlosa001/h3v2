@@ -25,6 +25,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="android.example.com.group_portfolio_hw_meks.MainActivity" />
         </activity>
+        <activity
+            android:name=".SamerActivity"
+            android:label="@string/title_activity_samer"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
