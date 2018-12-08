@@ -2,6 +2,7 @@
 package android.example.com.group_portfolio_hw_meks;
 
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -22,35 +23,43 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // find and define the ToolBar
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        //set up action bar
         ActionBar actionbar = getSupportActionBar();
-        actionbar.setDisplayHomeAsUpEnabled(false);
+        actionbar.setDisplayHomeAsUpEnabled(true);
         actionbar.setHomeAsUpIndicator(R.drawable.ic_menu_black_24dp);
 
-        // this is setting up the onClick listener for when you select a name
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
-                        // set item as selected to persist highlight
+                        switch (menuItem.getItemId()) {
+//                            case R.id.nav_marysol:
+//                                Intent intent = new Intent(MainActivity.this, MarysolActivity.class);
+//                                startActivity(intent);
+//                                break;
+//                            case R.id.nav_eric:
+//                                Intent intent2 = new Intent(MainActivity.this, EricActivity.class);
+//                                startActivity(intent2);
+//                                break;
+                            case R.id.nav_krishan:
+                                Intent intent3 = new Intent(MainActivity.this, KrishanActivity.class);
+                                startActivity(intent3);
+                                break;
+//                            case R.id.nav_samer:
+//                                Intent intent4 = new Intent(MainActivity.this, SamerActivity.class);
+//                                startActivity(intent4);
+//                                break;
+                        }
                         menuItem.setChecked(true);
-                        // close drawer when item is tapped
                         mDrawerLayout.closeDrawers();
                         menuItem.setChecked(false);
-
-                        // Add code here to update the UI based on the item selected
-                        // For example, swap UI fragments here
 
                         return true;
                     }
                 });
-
-        //find the drawer layout view
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
         mDrawerLayout.addDrawerListener(new DrawerLayout.DrawerListener() {
@@ -79,12 +88,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
+        switch (item.getItemId()){
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
                 return true;
         }
         return super.onOptionsItemSelected(item);
     }
-
 }
