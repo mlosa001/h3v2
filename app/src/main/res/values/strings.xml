@@ -21,4 +21,10 @@ Besides, at this stage of my life, I want to explore what I am already doing in 
 
 
     </string>
+    <string name="title_activity_personal">Personal</string>
+    <string name="bio_marisol">Information Technology Professional experienced in handling high-volume requests in a call center environment. CompTIA A+, and Network+ certified in addition to a solid working knowledge of troubleshooting PC\'s, peripherals and networking issues.
+        Friendly and diligent, committed to providing the highest
+        levels of customer service. Excellent interpersonal and
+        communication skills. Fluent in Spanish.</string>
+
 </resources>
