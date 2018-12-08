@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Group_Portfolio_HW_MEKS</string>
+    <string name="title_activity_personal">Personal</string>
+    <string name="bio">Information Technology Professional experienced in handling high-volume requests in a call center environment. CompTIA A+, and Network+ certified in addition to a solid working knowledge of troubleshooting PC\'s, peripherals and networking issues.
+        Friendly and diligent, committed to providing the highest
+        levels of customer service. Excellent interpersonal and
+        communication skills. Fluent in Spanish.</string>
+
 </resources>
