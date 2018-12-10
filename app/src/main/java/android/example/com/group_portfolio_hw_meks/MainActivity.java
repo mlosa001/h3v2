@@ -40,10 +40,10 @@ public class MainActivity extends AppCompatActivity {
 //                                Intent intent = new Intent(MainActivity.this, MarysolActivity.class);
 //                                startActivity(intent);
 //                                break;
-//                            case R.id.nav_eric:
-//                                Intent intent2 = new Intent(MainActivity.this, EricActivity.class);
-//                                startActivity(intent2);
-//                                break;
+                            case R.id.nav_eric:
+                                Intent intent2 = new Intent(MainActivity.this, EricActivity.class);
+                                startActivity(intent2);
+                                break;
                             case R.id.nav_krishan:
                                 Intent intent3 = new Intent(MainActivity.this, KrishanActivity.class);
                                 startActivity(intent3);
@@ -55,11 +55,11 @@ public class MainActivity extends AppCompatActivity {
                         }
                         menuItem.setChecked(true);
                         mDrawerLayout.closeDrawers();
-                        menuItem.setChecked(false);
 
                         return true;
                     }
                 });
+
         mDrawerLayout = findViewById(R.id.drawer_layout);
 
         mDrawerLayout.addDrawerListener(new DrawerLayout.DrawerListener() {
@@ -88,11 +88,12 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case android.R.id.home:
                 mDrawerLayout.openDrawer(GravityCompat.START);
                 return true;
         }
         return super.onOptionsItemSelected(item);
     }
+
 }
