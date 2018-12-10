@@ -2,6 +2,7 @@
 package android.example.com.group_portfolio_hw_meks;
 
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -34,6 +35,24 @@ public class MainActivity extends AppCompatActivity {
                 new NavigationView.OnNavigationItemSelectedListener() {
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
+                        switch (menuItem.getItemId()) {
+//                            case R.id.nav_marysol:
+//                                Intent intent = new Intent(MainActivity.this, MarysolActivity.class);
+//                                startActivity(intent);
+//                                break;
+                            case R.id.nav_eric:
+                                Intent intent2 = new Intent(MainActivity.this, EricActivity.class);
+                                startActivity(intent2);
+                                break;
+                            case R.id.nav_krishan:
+                                Intent intent3 = new Intent(MainActivity.this, KrishanActivity.class);
+                                startActivity(intent3);
+                                break;
+//                            case R.id.nav_samer:
+//                                Intent intent4 = new Intent(MainActivity.this, SamerActivity.class);
+//                                startActivity(intent4);
+//                                break;
+                        }
                         menuItem.setChecked(true);
                         mDrawerLayout.closeDrawers();
 

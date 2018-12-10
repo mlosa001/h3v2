@@ -2,16 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_eric"
             android:title="Eric Diaz" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_samer"
             android:title="Samer Mehany"  />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_krishan"
             android:title="Krishan Roy" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_marysol"
             android:title="Marysol Losada" />
     </group>
 </menu>
