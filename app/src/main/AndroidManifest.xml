@@ -17,12 +17,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".KrishanActivity"
+
             android:theme="@style/krishanactionbar"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+
         </activity>
+        <activity android:name=".EricActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ericActionBar"></activity>
     </application>
 
 </manifest>
