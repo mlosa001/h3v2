@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SamerActivity">
+    tools:context=".EricActivity">
 
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="214dp"
-        android:layout_height="304dp"
+        android:layout_width="340dp"
+        android:layout_height="320dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/samer"
+        android:background="@drawable/ericprofileimage"
         android:padding="16dp"
         app:layout_constraintBottom_toTopOf="@id/scroll_view"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,10 +36,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:text="@string/samer_bio"
-            android:textSize="18sp"
-            android:textColor="#000000"/>
+            android:text="@string/eric_bio"
+            android:textSize="18sp" />
 
     </ScrollView>
 
-</android.support.constraint.ConstraintLayout>
+ </android.support.constraint.ConstraintLayout>

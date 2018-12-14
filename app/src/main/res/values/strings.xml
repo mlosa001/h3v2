@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">MEKS PORTFOLIO</string>
-    <string name="Goal_of_the_project">The goal of the project is to present our group\'s work in an oragnized manner. When an user will click the top left corner of the main page or slide from the left to the right, he/she can find a navigation toolbar that shows each our name and by selecting any one of the name the
-    a new activity will take a user to a page that takes to the portfolio of that particular person in the group. In that page of that person, a user can select the top right corner of that app and a menue bar will drop and from there, the user can select any project. When a project is selected the user will be able to open that project in Google Chrome or any other website.</string>
+    <string name="goal_of_the_project">The goal of this project is to showcase our understanding and mastery of making an Android Application. When an user clicks the top left corner of the main page or slide from the left to the right, the user will find a navigation toolbar that shows each of our names. By selecting any one of the our a names, a new activity will begin taking the user to out individual profiles. In that individual profile a user can select the top right corner of that app and a menu will appear with Links to different projects posted on GitHub. When a project is selected the user will be able to open that project in Google Chrome and view the Git repository.</string>
     <string name="marisol">Marisol</string>
     <string name="eric">ERIC</string>
     <string name="krishan">KRISHAN</string>
@@ -27,5 +26,16 @@ Besides, at this stage of my life, I want to explore what I am already doing in 
         levels of customer service. Excellent interpersonal and
         communication skills. Fluent in Spanish.</string>
     <string name="title_activity_samer">SamerActivity</string>
-
+    <string name="eric_bio">Experienced and goal-oriented professional with a track record of consistently meeting and exceeding organizational goals and objectives through effective use of leadership, communication, and critical analytical skills. Skilled in building healthy relationships with colleagues to maximize effectiveness of group’s outcomes as well as using creative problem solving techniques to meet organizational challenges. Motivated and ambitious individual with great interpersonal and relationship management skills.
+</string>
+    <string name="eric_git1">NinjaTales on Git</string>
+    <string name="eric_git2">Teller Operating System on Git</string>
+    <string name="eric_git3">TicTacToe on Git</string>
+    <string name="samer_git1">Text Files on Git</string>
+    <string name="samer_git2">Storybook on Git</string>
+    <string name="samer_git3">Unit 01 Assessment on Git</string>
+    <string name="samer_bio">Former servicemember and recruitment specialist with experience in the tech industry. \n
+        Pragmatic and organized with a proven track record of effectively prioritizing multiple tasks and assignments in a fast-paced work environment to efficiently meet objectives. \n
+        Proactive and considered to be a highly motivated employee with the capacity to learn quickly and take responsibility for my own development. \n
+        Believes in building strong co-operative relationships with co-workers and clients alike. </string>
 </resources>
