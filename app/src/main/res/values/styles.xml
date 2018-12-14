@@ -17,6 +17,7 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!-- Krishan's theme that krishan posted in the Android manifest under his Activity.  -->
     <style name="krishanactionbar" parent="Theme.AppCompat.Light">
 
     </style>

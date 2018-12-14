@@ -16,9 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KrishanActivity"
-            android:theme="@style/krishanactionbar"
-            android:parentActivityName=".MainActivity">
+        <activity
+            android:name=".KrishanActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/krishanactionbar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
