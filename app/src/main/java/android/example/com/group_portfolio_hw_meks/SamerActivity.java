@@ -3,11 +3,10 @@ package android.example.com.group_portfolio_hw_meks;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.app.ActionBar;
+
 
 public class SamerActivity extends AppCompatActivity {
 
