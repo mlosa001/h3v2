@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">MEKS PORTFOLIO</string>
-    <string name="Goal_of_the_project">The goal of the project is to present our group\'s work in an oragnized manner. When an user will click the top left corner of the main page or slide from the left to the right, he/she can find a navigation toolbar that shows each our name and by selecting any one of the name the
-    a new activity will take a user to a page that takes to the portfolio of that particular person in the group. In that page of that person, a user can select the top right corner of that app and a menue bar will drop and from there, the user can select any project. When a project is selected the user will be able to open that project in Google Chrome or any other website.</string>
+    <string name="Goal_of_the_project">The goal of this project is to showcase our understanding and mastery of making an Android Application. When an user clicks the top left corner of the main page or slide from the left to the right, the user will find a navigation toolbar that shows each of our names. By selecting any one of the our a names, a new activity will begin taking the user to out individual profiles. In that individual profile a user can select the top right corner of that app and a menu will appear with Links to different projects posted on GitHub. When a project is selected the user will be able to open that project in Google Chrome and view the Git repository.</string>
     <string name="marisol">Marisol</string>
     <string name="eric">ERIC</string>
     <string name="krishan">KRISHAN</string>
@@ -19,7 +18,6 @@ Besides, at this stage of my life, I want to explore what I am already doing in 
         \n\n
         Since my desire and the organization’s vision converges together, I can pour my heart to make colleges accessible to my struggling younger brothers in high schools, develop my mentorship skills, gather experience in the impact of digital technologies in advising and apply for a master’s program in the higher education administration after the two years\' commitment period.
 
-
     </string>
     <string name="title_activity_personal">Personal</string>
     <string name="bio_marisol">Information Technology Professional experienced in handling high-volume requests in a call center environment. CompTIA A+, and Network+ certified in addition to a solid working knowledge of troubleshooting PC\'s, peripherals and networking issues.
@@ -27,5 +25,11 @@ Besides, at this stage of my life, I want to explore what I am already doing in 
         levels of customer service. Excellent interpersonal and
         communication skills. Fluent in Spanish.</string>
     <string name="text_splash_screen">We Are MEKS</string>
+
+    <string name="eric_bio">Experienced and goal-oriented professional with a track record of consistently meeting and exceeding organizational goals and objectives through effective use of leadership, communication, and critical analytical skills. Skilled in building healthy relationships with colleagues to maximize effectiveness of group’s outcomes as well as using creative problem solving techniques to meet organizational challenges. Motivated and ambitious individual with great interpersonal and relationship management skills.
+</string>
+    <string name="eric_git1">NinjaTales on Git</string>
+    <string name="eric_git2">Teller Operating System on Git</string>
+    <string name="eric_git3">TicTacToe on Git</string>
 
 </resources>
