@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
                                 Intent intent3 = new Intent(MainActivity.this, KrishanActivity.class);
                                 startActivity(intent3);
                                 break;
-//                            case R.id.nav_samer:
-//                                Intent intent4 = new Intent(MainActivity.this, SamerActivity.class);
-//                                startActivity(intent4);
-//                                break;
+                            case R.id.nav_samer:
+                                Intent intent4 = new Intent(MainActivity.this, SamerActivity.class);
+                                startActivity(intent4);
+                                break;
                         }
                         menuItem.setChecked(true);
                         mDrawerLayout.closeDrawers();
