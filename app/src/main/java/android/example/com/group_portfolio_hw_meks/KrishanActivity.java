@@ -51,6 +51,7 @@ public class KrishanActivity extends AppCompatActivity {
                 } else {
                     Log.d("Kris Proj1 Implicit", "Can't handle this message");
                 }
+                break;
             case R.id.krishan_menu_project2:
                 String urlTwo = "https://github.com/KrishanRoy/CYOA_Pursuit_HW_ROY_KRISHAN";
                 Uri webpageTwo = Uri.parse(urlTwo);
@@ -60,6 +61,7 @@ public class KrishanActivity extends AppCompatActivity {
                 } else {
                     Log.d("Kris Proj2 Implicit", "Can't handle this message");
                 }
+                break;
             case R.id.krishan_menu_project3:
                 String urlThree = "https://github.com/KrishanRoy/Java_Bank_Pursuit_HW_ROY_KRISHAN";
                 Uri webpageThree = Uri.parse(urlThree);
@@ -69,6 +71,7 @@ public class KrishanActivity extends AppCompatActivity {
                 } else {
                     Log.d("Kris Proj3 Implicit", "Can't handle this message");
                 }
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
