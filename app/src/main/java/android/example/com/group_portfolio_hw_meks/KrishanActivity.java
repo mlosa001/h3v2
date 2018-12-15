@@ -1,6 +1,7 @@
 package android.example.com.group_portfolio_hw_meks;
 
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -23,10 +24,10 @@ public class KrishanActivity extends AppCompatActivity {
         shareButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent shareIntent = new Intent();
-                shareIntent.setAction(Intent.ACTION_SEND);
-                shareIntent.setType("text/plain");
-                startActivity(shareIntent);
+                String mailto = "mailto:ericdiaz@pursuit.org?cc=mlosa001@gmail.com&bcc=samermehany@pursuit.org&subject=MEKS%20direct%20messaging%20system&body=Are%20We%20doing%20a%20presentation%20today?";
+                Intent emailIntent = new Intent(Intent.ACTION_SENDTO);
+                emailIntent.setData(Uri.parse(mailto));
+                startActivity(emailIntent);
 
             }
         });

@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".KrishanActivity"
             android:parentActivityName=".MainActivity"
@@ -23,6 +24,14 @@
         <activity
             android:name=".SamerActivity"
             android:parentActivityName=".MainActivity"
+
+        <activity android:name=".KrishanActivity"
+            android:theme="@style/krishanactionbar"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name=".EricActivity"
+
             android:screenOrientation="portrait"
             android:theme="@style/ericActionBar"></activity>
         <activity
