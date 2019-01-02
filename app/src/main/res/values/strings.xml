@@ -24,12 +24,21 @@ Besides, at this stage of my life, I want to explore what I am already doing in 
         Friendly and diligent, committed to providing the highest
         levels of customer service. Excellent interpersonal and
         communication skills. Fluent in Spanish.</string>
+    <string name="title_activity_samer">SamerActivity</string>
+
     <string name="text_splash_screen">We Are MEKS</string>
+
 
     <string name="eric_bio">Experienced and goal-oriented professional with a track record of consistently meeting and exceeding organizational goals and objectives through effective use of leadership, communication, and critical analytical skills. Skilled in building healthy relationships with colleagues to maximize effectiveness of group’s outcomes as well as using creative problem solving techniques to meet organizational challenges. Motivated and ambitious individual with great interpersonal and relationship management skills.
 </string>
     <string name="eric_git1">NinjaTales on Git</string>
     <string name="eric_git2">Teller Operating System on Git</string>
     <string name="eric_git3">TicTacToe on Git</string>
-
+    <string name="samer_git1">Text Files on Git</string>
+    <string name="samer_git2">Storybook on Git</string>
+    <string name="samer_git3">Unit 01 Assessment on Git</string>
+    <string name="samer_bio">Former servicemember and recruitment specialist with experience in the tech industry. \n
+        Pragmatic and organized with a proven track record of effectively prioritizing multiple tasks and assignments in a fast-paced work environment to efficiently meet objectives. \n
+        Proactive and considered to be a highly motivated employee with the capacity to learn quickly and take responsibility for my own development. \n
+        Believes in building strong co-operative relationships with co-workers and clients alike. </string>
 </resources>
