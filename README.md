@@ -16,3 +16,4 @@ an image of that particular team member, from the drawable folder
 * A popup menu in the toolbar/actionbar for 3 (three) Github projects created by that team member that, when clicked, redirects to an external web browser app displaying that particular Github link to the screen
 * A navigation back arrow on the toolbar/actionbar allowing the user to jump back to the main activity
 
+ Click here to walk through the presentation [MEKS Google presentation](https://docs.google.com/presentation/d/10PZE-KwMojl2IQX66LgUHjLNjhLwCVqpFM9O0g9UXiQ/edit#slide=id.p "MEKS Google presentation") 
