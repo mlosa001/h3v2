@@ -3,6 +3,7 @@ package android.example.com.group_portfolio_hw_meks;
 
 
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,6 +18,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawerLayout;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

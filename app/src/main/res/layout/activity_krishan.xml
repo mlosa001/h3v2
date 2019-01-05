@@ -46,7 +46,7 @@
                 android:layout_marginBottom="8dp"
                 android:fontFamily="serif-monospace"
                 android:gravity="center"
-                android:text="Krishan Roy"
+                android:text="@string/krishan_roy_Textview"
                 android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/scrollView2"
@@ -72,12 +72,23 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="serif-monospace"
                 android:textSize="24dp"
-                android:text="EMAIL FRIENDS"
+                android:text="@string/Krishan_email_friends"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"/>
+
+            <Button
+                android:id="@+id/notify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/notify_me_button"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/share_button" />
         </LinearLayout>
     </ScrollView>
 

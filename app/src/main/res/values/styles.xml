@@ -17,9 +17,6 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <style name="ericActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-    </style>
     <style name="samerActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         xmlns:app="http://schemas.android.com/apk/res-auto"
     </style>
